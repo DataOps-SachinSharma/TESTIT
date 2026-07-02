@@ -11,7 +11,7 @@ A plain HTML/CSS/JS site covering GTRTeK LLC's HR policies for 2026 — built to
 | Page | File | Covers |
 |---|---|---|
 | Home | `index.html` | Directory of every topic |
-| Leave Policy | `leave-policy.html` | Standard leave entitlements, national holidays summary, how to apply |
+| Leave Policy | `GTRLeave-policy.html` | Standard leave entitlements, national holidays summary, how to apply |
 | Holiday Calendar | `holiday-calendar.html` | National + 10 location-wise 2026 calendars |
 | Comp Off Policy | `comp-off-policy.html` | Eligibility, approval email flow, usage limits |
 | Health Insurance | `health-insurance.html` | Coverage, dependents, optional parent coverage |
@@ -66,7 +66,7 @@ Tips for good grounding:
 
 1. Duplicate the closest existing page, e.g. `cp comp-off-policy.html new-policy.html`.
 2. Edit the `<title>`, the `<h1>`, and the body content — everything else (header, footer, styles) already matches the rest of the site.
-3. Add a link to it from `index.html`'s card grid, and to the `main-nav` list if it deserves top-level navigation. Search `main-nav` in `index.html`, `leave-policy.html`, etc. — it appears once per page (or edit `build.py`'s `NAV_ITEMS` list and re-run `python3 build.py` to regenerate every page's header at once).
+3. Add a link to it from `index.html`'s card grid, and to the `main-nav` list if it deserves top-level navigation. Search `main-nav` in `index.html`, `GTRLeave-policy.html`, etc. — it appears once per page (or edit `build.py`'s `NAV_ITEMS` list and re-run `python3 build.py` to regenerate every page's header at once).
 4. Commit and push — GitHub Pages updates automatically.
 
 **Option B — regenerate everything from `build.py`:**
